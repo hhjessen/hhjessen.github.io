@@ -5,7 +5,7 @@ title: "Welcome"
 
 <p><img src="img/henrik.jpg" style="float:right;width:400px;height:auto;margin-left:20px;border:no">
 My name is Henrik Høiberg Jessen, and I am a danish biologist, specialised in the aquatic ecosystems and their management.  
-I am passionate about our ecosystems, and want to help provide the necessary knowledge needed to make informed management decisions. Because of this, I have to decided to pursue a career within research of these systems, and the species that live within them. To find out more about my motivations and research interests, please visit the 'Research Interests' tab.  
+I am passionate about our ecosystems, and want to help provide the necessary knowledge needed to make informed management decisions. Because of this, I have to decided to pursue a career within research of these systems, and the species that live within them. To find out more about my motivations and research interests, please visit the 'Research Interests' tab.   
 </p>
 <p>
 Aside from my biological interests, I have a mind for math and physics, and I am tech savvy. I believe in the predictive capabilities of models, and because of this, I spend a significant portion of my free time getting familiar with various coding languages. I am a routine user of R, capable in LaTeX, and I am familiar with the basic syntax of Python, MATLAB, and HTML/CSS.
