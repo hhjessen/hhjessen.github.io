@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Welcome\"\n---\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n\n<p><img src=\"img/henrik.jpg\" style=\"float:right;width:400px;height:auto;margin-left:20px;border:no\">\nMy name is Henrik Høiberg Jessen, and I am a danish biologist, specialised in the aquatic ecosystems and their management.  \nI am passionate about our ecosystems, and want to help provide the necessary knowledge needed to make informed management decisions. Because of this, I have to decided to pursue a career within research of these systems, and the species that live within them. To find out more about my motivations and research interests, please visit the 'Research Interests' tab.  \n</p>\n<p>\nAside from my biological interests, I have a mind for math and physics, and I am tech savvy. I believe in the predictive capabilities of models, and because of this, I spend a significant portion of my free time getting familiar with various coding languages. I am a routine user of R, capable in LaTeX, and I am familiar with the basic syntax of Python, MATLAB, and HTML/CSS.\n</p>\n<p>\nThis site contains information on not only my interests, but also my previous projects, research experience, and the skills I have acquired from them. As such, the site is thought to act as a expanded resumé. If you have any questions regarding what is written on here, please feel free to get in touch with me to discuss it further. If you would prefer the PDF version of my CV, please click <a href=\"files/hhjessen_CV.pdf\" download>here</a>.\n</p>\n<p>\nSincerely,  \nHenrik H. Jessen, MSc, Biology  \nSpobjergvej 219, 8220 Brabrand, Denmark  \n<i class=\"fa fa-envelope\"></i> hhjessen@outlook.com  \n<i class=\"fa fa-phone\"></i> +45 28 89 69 71",
+    "created" : 1546438991429.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3734142492",
+    "id" : "18FA861E",
+    "lastKnownWriteTime" : 1546606840,
+    "last_content_update" : 1546606840685,
+    "path" : "C:/Users/sjuji/OneDrive/website/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

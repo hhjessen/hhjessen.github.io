@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Projects</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Henrik H. Jessen</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research Interests</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="CV.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Projects</h1>
+
+</div>
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 5px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<div id="cleat-project" class="section level3">
+<h3>CLEAT Project</h3>
+<p>International collaboration to help ensure sustainable fisheries in Lake Tanganyika, accounting for climate changes and overfishing, social aspects and capacity building in the region. I was a part of workpackage 3, ‘Fish productivity’, but also partook in annual meetings, discussion and planning amongst other workgroups. For more info, please click <a href="https://www.w3schools.com/html/html_links.asp">here.</a></p>
+<p>
+<strong>Dietary differences among commercially important fishes in Lake Tanganyika assessed using stable isotope analysis</strong><br />
+Article form of my master’s thesis. Aimed at estimating the pelagic food web of Lake Tanganyika in East Africa, to aid further modelling within the CLEAT project. The focus was on the three species <em>Lates stappersii</em>, <em>Limnothrissa miodon</em> and <em>Stolothrissa tanganicae</em>, using stable isotope analysis supplemented by a stomach analysis of <em>Lates stappersii</em>.
+</p>
+<button class="accordion">
+Abstract
+</button>
+<div class="panel">
+<p>
+The pelagic fishery of Lake Tanganyika, which is largely made up of the three species <em>Lates stappersii</em>, <em>Limnothrissa miodon</em> and <em>Stolothrissa tanganicae</em>, has been declining, and there are disagreements as to the primary underlying cause. Because of this, detailed knowledge of the systems food web is required. The aim of this study is to elucidate the diets of the three species. Muscle tissue samples for stable isotope analysis were sampled from February through April, along with supplementary stomachs from <em>L. stappersii</em>, for use in stomach analysis. The stomach analysis showed a change in diet composition throughout the life cycle of the fish, shifting from copepods, to fish larvae supplemented by shrimps, to whole fish prey as the fish grew. Stable carbon and nitrogen isotope values from fish muscle were consistent with this, and furthermore showed no differences between the species when sizes were accounted for. This suggests that the diet of the pelagic fish species is a function of size, rather than species. Fish below 80mm total length were likely to consume primarily copepods, supplemented by shrimps. Around 80mm a shift to primarily feeding on fish larvae, still supplemented by shrimps and/or copepods, was observed. In the case of <em>L. stappersii</em>, the fish grow large enough to consume whole fish when they reach a total length of 250mm, after which whole fish, namely <em>S. tanganicae</em>, compose the majority of the food consumed.
+</p>
+</div>
+<p><strong>Seasonal variation in growth of pelagic fish species of Lake Tanganyika.</strong><br />
+Testing the difference in growth of three pelagic fish species in Lake Tanganyika between the wet and dry season. This knowledge will aid in modelling of the species response to a warmin climate, and aid management in the long run. Growth estimates are based on counts of daily increments in otoliths of all three species.</p>
+<p><br></p>
+</div>
+<div id="smaller-projects" class="section level3">
+<h3>Smaller projects</h3>
+<p>
+<strong>Latitudinal differences in the Diet of Northern Sand Lance, <em>Ammodytes dubius</em>.</strong><br />
+Using stomach analysis to estimate the relative importance of various food items between two populations of Northern Sand Lance, along the western coast of Greenland.
+</p>
+<button class="accordion">
+Abstract
+</button>
+<div class="panel">
+<p>
+The schooling pelagic forage fish Northern sand lance, <em>Ammodytes dubius</em>, is an important species in the northern atlantic, due to its role in linking the lower and higher trophic levels, allowing the energy produced by the planktonic species to reach seabirds and higher mammals. Knowledge of sand lance diet composition in the arctic is, however, lacking. This study examines differences in sand lance diet at 2 latitudes off the western coast of Greenland, by analyzing their stomach content. Results indicate that amphipods and copepods were the main food subjects, contributing roughly 98% of total carbon consumed. Amphipods contribute up towards 40% of carbon consumed at the southern location, whilst being neglectible in the northern station, where copepods make up virtually all food consumed. The copepod species, <em>Calanus finmarchicus</em>, <em>C. glacialis</em> and <em>C. hyperboreus</em> were the primary food items, with <em>C. hyperboreus</em> being more important at the northern station, and <em>C. finmarchicus</em> and <em>C. glacialis</em> dominating the southern station diet composition. This information may improve modelling of sand lance response to climate change, by allowing models to account for the spatial variability in importance of prey species.
+</p>
+</div>
+<p>
+<strong>A comparison of species and temperature responses of growth and photosynthesis for four riparian paludiculture plants</strong><br />
+Testing several wetland plants in regards to their ability to produce biomass under different temperatures. The purpose was to assess their suitability as paludiculture crops, which allow for more wetland area whilst minimizing the economic loss of agricultural area.
+</p>
+<button class="accordion">
+Abstract
+</button>
+<div class="panel">
+<p>
+Riparian plants, suitable for peatland cultivation, has been investigated in relation to their ability to produce biomass at different temperatures. The plants investigated were <em>Salix viminalis</em>, <em>Pennisetum purpureum, Arundo donax</em> and <em>Phragmites australis</em>. Individuals of each species were kept in climate chambers at either 20 or 30 °C for 21 days, after which chosen physiological traits were measured. Pigment content (chlorophyll and carotenoids) and ratio changed with both species and temperature, with <em>P. australis</em> containing the most chlorophyll. Pmax was highest for <em>P. australis</em>, and temperature impacted species differently. <em>Phragmites australis</em> and <em>S. viminalis</em> acclimated to 20 °C increased their Pmax drastically when measured at 30 °C. The highest relative growth rate (RGR) was found in P. australis and A. donax at both temperatures, and temperature appeared to increase the growth rate. A significant relationship was found between RGR, and both chlorophyll content of leaves and Pmax, but no relationship was found between RGR and SLA. In terms of overall suitability for paludiculture, <em>P. australis</em> seemed the best, as it had the highest RGR, Pmax and chlorophyll content, while also exhibiting great adaptability to varying temperatures, a trait that might prove desirable in temperate regions.
+</p>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

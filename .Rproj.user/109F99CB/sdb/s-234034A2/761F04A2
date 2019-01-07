@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "img {\n  padding: 1px;\n  border: 1px solid;\n  display: block;\n}\nsec_left {\n  float: left;\n  height: 350px;\n  width: 48%;\n}\nsec_right {\n  float: right;\n  height: 350px;\n  width: 48%;\n}\nfirst-column {\n    width: 10%;\n    padding: 0 10px 0 0;\n    float: left;\n}\n\nsecond-column {\n    width: 90%;\n    padding: 0 10px 0 20px;\n    float: left;\n}",
+    "created" : 1546506740025.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1136520883",
+    "id" : "761F04A2",
+    "lastKnownWriteTime" : 1546865660,
+    "last_content_update" : 1546865660883,
+    "path" : "C:/Users/sjuji/OneDrive/website/style.css",
+    "project_path" : "style.css",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "css"
+}

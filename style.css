@@ -1,0 +1,26 @@
+img {
+  padding: 1px;
+  border: 1px solid;
+  display: block;
+}
+sec_left {
+  float: left;
+  height: 350px;
+  width: 48%;
+}
+sec_right {
+  float: right;
+  height: 350px;
+  width: 48%;
+}
+first-column {
+    width: 10%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+second-column {
+    width: 90%;
+    padding: 0 10px 0 20px;
+    float: left;
+}

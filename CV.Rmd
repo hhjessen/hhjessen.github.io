@@ -1,0 +1,91 @@
+---
+title: "Curriculum"
+---
+If you would prefer the full PDF version of my CV, please click <a href="files/hhjessen_CV.pdf" download>here</a>.
+<p>
+####Educational Background
+
+<first-column>
+2016-2017
+</first-column>
+
+<second-column>
+**MSc in Biology, Aarhus University**  
+- Specialized in aquatic ecosystems, trophic ecology, and modelling 
+- Included three months of multidisciplinary fieldwork in western Tanzania, helping secure sustainable fishing in Lake Tanganyika  
+- Experience communicating with stakeholder, politicians and citizens  
+- Supplementary courses on ecosystem management
+</second-column>  
+
+<first-column>
+2012-2016
+</first-column>
+
+<second-column>
+**BSc in Biology, Aarhus University**  
+- Including courses on multivariate analysis and GIS  
+- Courses on experimental design, project theory, and protocol evaluation
+</second-column>
+</p>  
+  
+####Work Experience
+
+<first-column>
+2018
+</first-column>
+
+<second-column>
+**Nature guide at The Wadden Sea Centre**  
+Responsible for hosting guided tours in our exhibition, in the Wadden Sea National Park, as well as teaching and development of teaching material for a wide variety of levels.
+</second-column>  
+
+<first-column>
+2016
+</first-column>
+
+<second-column>
+**Communicator for The Danish Vegetarian Association**  
+Hosting workshops aimed at teaching about the connection of anthropogenic consumption to climate changes, targeted at 6th to 9th grade level.
+</second-column>
+
+####Courses  
+<first-column>
+2016
+</first-column>
+
+<second-column>
+**Ecopath w/ Ecosim**  
+Course on using this modelling software, given by developer Villy Christensen. Included practical case study, building a hypothetical model for Lake Tanganyika, and Lake Volta.
+</second-column>
+
+####Additional experience
+<first-column>
+2015-2018
+</first-column>
+
+<second-column>
+**Chairman for the board game association at my dormitory**  
+- Planning, promoting and hosting events  
+- Responsible for calling meetings and assembleys  
+- Applying for funds
+</second-column>  
+
+<first-column>
+2015-2017
+</first-column>
+
+<second-column>
+**Volunteer at UNF Aarhus**  
+- Planning and hosting science lectures with external guests  
+- Delivering lectures on natural sciences at high school level  
+- Acting a a guide for high school students on larger projects
+</second-column>  
+
+<first-column>
+2016
+</first-column>
+
+<second-column>
+**Co-founder of a nature-club for families with small children**  
+- Planning and hosting outdoor activities, aimed at showing families ways to spend time in the outdoors, and creating an early interest for this in the children.
+</second-column>

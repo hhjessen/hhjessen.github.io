@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Curriculum\"\n---\nIf you would prefer the full PDF version of my CV, please click <a href=\"files/hhjessen_CV.pdf\" download>here</a>.\n<p>\n####Educational Background\n\n<first-column>\n2016-2017\n</first-column>\n\n<second-column>\n**MSc in Biology, Aarhus University**  \n- Specialized in aquatic ecosystems, trophic ecology, and modelling \n- Included three months of multidisciplinary fieldwork in western Tanzania, helping secure sustainable fishing in Lake Tanganyika  \n- Experience communicating with stakeholder, politicians and citizens  \n- Supplementary courses on ecosystem management\n</second-column>  \n\n<first-column>\n2012-2016\n</first-column>\n\n<second-column>\n**BSc in Biology, Aarhus University**  \n- Including courses on multivariate analysis and GIS  \n- Courses on experimental design, project theory, and protocol evaluation\n</second-column>\n</p>  \n  \n####Work Experience\n\n<first-column>\n2018\n</first-column>\n\n<second-column>\n**Nature guide at The Wadden Sea Centre**  \nResponsible for hosting guided tours in our exhibition, in the Wadden Sea National Park, as well as teaching and development of teaching material for a wide variety of levels.\n</second-column>  \n\n<first-column>\n2016\n</first-column>\n\n<second-column>\n**Communicator for The Danish Vegetarian Association**  \nHosting workshops aimed at teaching about the connection of anthropogenic consumption to climate changes, targeted at 6th to 9th grade level.\n</second-column>\n\n####Courses  \n<first-column>\n2016\n</first-column>\n\n<second-column>\n**Ecopath w/ Ecosim**  \nCourse on using this modelling software, given by developer Villy Christensen. Included practical case study, building a hypothetical model for Lake Tanganyika, and Lake Volta.\n</second-column>\n\n####Additional experience\n<first-column>\n2015-2018\n</first-column>\n\n<second-column>\n**Chairman for the board game association at my dormitory**  \n- Planning, promoting and hosting events  \n- Responsible for calling meetings and assembleys  \n- Applying for funds\n</second-column>  \n\n<first-column>\n2015-2017\n</first-column>\n\n<second-column>\n**Volunteer at UNF Aarhus**  \n- Planning and hosting science lectures with external guests  \n- Delivering lectures on natural sciences at high school level  \n- Acting a a guide for high school students on larger projects\n</second-column>  \n\n<first-column>\n2016\n</first-column>\n\n<second-column>\n**Co-founder of a nature-club for families with small children**  \n- Planning and hosting outdoor activities, aimed at showing families ways to spend time in the outdoors, and creating an early interest for this in the children.\n</second-column>",
+    "created" : 1546505882078.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1658225566",
+    "id" : "1EE6926D",
+    "lastKnownWriteTime" : 1546866676,
+    "last_content_update" : 1546866676272,
+    "path" : "C:/Users/sjuji/OneDrive/website/CV.Rmd",
+    "project_path" : "CV.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
