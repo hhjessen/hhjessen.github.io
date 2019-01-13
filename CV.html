@@ -11,7 +11,7 @@
 
 
 
-<title>Curriculum</title>
+<title>Curriculum vitae</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -265,6 +268,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -303,32 +401,36 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Curriculum</h1>
+<h1 class="title toc-ignore">Curriculum vitae</h1>
 
 </div>
 
 
-If you would prefer the full PDF version of my CV, please click <a href="files/hhjessen_CV.pdf" download>here</a>.
-<p>
+<style>
+fix_sec {
+  height: 200px;
+}
+</style>
+<p>If you would prefer the full PDF version of my CV, please click <a href="files/hhjessen_CV.pdf" download>here</a>.</p>
 <p> </p>
-<div id="educational-background" class="section level4">
-<h4>Educational Background</h4>
+<div id="educational-background" class="section level3">
+<h3>Educational Background</h3>
 <p><first-column> Feb 2016<br />
 -Nov 2017 </first-column></p>
 <p><second-column> <strong>MSc in Biology, Aarhus University</strong><br />
-- Specialized in aquatic ecosystems, trophic ecology, and modelling - Included three months of multidisciplinary fieldwork in western Tanzania, helping secure sustainable fishing in Lake Tanganyika<br />
-- Experience communicating with stakeholder, politicians and citizens<br />
-- Supplementary courses on ecosystem management </second-column></p>
+Specialized in aquatic ecosystems, trophic ecology, and modelling.<br />
+Included three months of multidisciplinary fieldwork in western Tanzania, helping secure sustainable fishing in Lake Tanganyika.<br />
+Experience communicating with stakeholder, politicians and citizens.<br />
+Supplementary courses on ecosystem management. </second-column></p>
 <p><first-column> Aug 2012<br />
 -Jan 2016 </first-column></p>
-<second-column> <strong>BSc in Biology, Aarhus University</strong><br />
-- Including courses on multivariate analysis and GIS<br />
-- Courses on experimental design, project theory, and protocol evaluation </second-column>
-</p>
+<p><second-column> <strong>BSc in Biology, Aarhus University</strong><br />
+Including courses on multivariate analysis and GIS.<br />
+Courses on experimental design, project theory, and protocol evaluation. </second-column></p>
 <p> </p>
 </div>
-<div id="work-experience" class="section level4">
-<h4>Work Experience</h4>
+<div id="work-experience" class="section level3">
+<h3>Work Experience</h3>
 <p><first-column> 2018<br />
 Jul - Nov </first-column></p>
 <p><second-column> <strong>Nature guide at The Wadden Sea Centre</strong> (27 hours/week)<br />
@@ -339,16 +441,85 @@ Jan - Jul </first-column></p>
 Hosting workshops aimed at teaching about the connection of anthropogenic consumption to climate changes, targeted at 6th to 9th grade level. </second-column></p>
 <p> </p>
 </div>
-<div id="courses" class="section level4">
-<h4>Courses</h4>
+<div id="courses" class="section level3">
+<h3>Courses</h3>
 <p><first-column> 2016<br />
 Aug </first-column></p>
 <p><second-column> <strong>Ecopath w/ Ecosim</strong> (30 hours)<br />
 Week-long course on using this modelling software, given by developer Villy Christensen. Included theoretical background, practical case study, and building a hypothetical model for Lake Tanganyika, and Lake Volta. </second-column></p>
 <p> </p>
 </div>
-<div id="additional-experience" class="section level4">
-<h4>Additional experience</h4>
+<div id="it-skills" class="section level3 tabset">
+<h3>IT skills</h3>
+<div id="r" class="section level4">
+<h4>R</h4>
+<meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-light-grey w3-round">
+<div class="w3-container w3-round w3-green w3-center" style="width:90%">
+90%
+</div>
+</div>
+<p>Routine user of the R software, it being my primary tool for data analysis and visualization. I am familiar with the syntax, function building, and able to quickly familiarize myself with new packages as needed.<br />
+I am also a big proponent of RStudio, and have begun regularly using R-markdown for most of my writing and development tasks, such as this website.  </p>
+</div>
+<div id="latex" class="section level4">
+<h4>LaTeX</h4>
+<meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-light-grey w3-round">
+<div class="w3-container w3-round w3-blue w3-center" style="width:70%">
+70%
+</div>
+</div>
+<p>Capable of creating visually pleasing reports, as well as other documents, using LaTeX. The PDF version of my CV, downloadable from the top of this page, is made using a mixture of Markdown and LaTeX within R-markdown.  </p>
+<p> </p>
+</div>
+<div id="htmlcss" class="section level4">
+<h4>HTML/CSS</h4>
+<meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-light-grey w3-round">
+<div class="w3-container w3-round w3-yellow w3-center" style="width:40%">
+40%
+</div>
+</div>
+<p>I am familiar with the basic syntax, and have created this website using mainly HTML and CSS, supplemented by Markdown within R-markdown. I am still taking courses to improve my skills in web design, hoping to be able to build more aesthetically pleasing websites.  </p>
+<p> </p>
+</div>
+<div id="ecopath" class="section level4">
+<h4>Ecopath</h4>
+<meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-light-grey w3-round">
+<div class="w3-container w3-round w3-yellow w3-center" style="width:40%">
+40%
+</div>
+</div>
+<p>Knowledgeable on how the software functions, and enthusiastic about the applications that the model has for management of fisheries. I have previously helped created a conceptual model of Lake Tanganyika using EwE, and I am confident that I would quickly be able to efficiently utilize the software.  </p>
+<p> </p>
+</div>
+<div id="python" class="section level4">
+<h4>Python</h4>
+<meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-light-grey w3-round">
+<div class="w3-container w3-round w3-orange w3-center" style="width:30%">
+30%
+</div>
+</div>
+<p>Currently learning about the possibilities of Python, especially within data treatment and visualization, but I am currently more confident in R when performing these tasks. I am also interested in building simple web apps to simplify my workflow, and will be looking into this as my Python skills improve.<br />
+ </p>
+</div>
+<div id="ms-office" class="section level4">
+<h4>MS Office</h4>
+<meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-light-grey w3-round">
+<div class="w3-container w3-round w3-green w3-center" style="width:100%">
+100%
+</div>
+</div>
+<p>Very practiced in Word, Excel and Powerpoint, having routinely used all programs throughout my university years to a large extent. Despite being largely fluent in all the programs, I now aim towards independence from the software, and prefer to do as much of my work within RStudio as possible.  </p>
+<p> </p>
+</div>
+</div>
+<div id="additional-experience" class="section level3">
+<h3>Additional experience</h3>
 <p><first-column> 2015-2018 </first-column></p>
 <p><second-column> <strong>Chairman for the board game association at my dormitory</strong><br />
 Planning, promoting and hosting events<br />
@@ -361,11 +532,96 @@ Delivering lectures on natural sciences at high school level<br />
 Acting a a guide for high school students on larger projects </second-column></p>
 <p><first-column> 2016 </first-column></p>
 <p><second-column> <strong>Co-founder of a nature-club for families with small children</strong><br />
-Planning and hosting outdoor activities, aimed at showing families ways to spend time in the outdoors, and creating an early interest for this in the children. </second-column></p>
+Planning and hosting outdoor activities, aimed at showing families ways to spend time in the outdoors, and developing an early interest for this in the children. </second-column></p>
+<p> </p>
+</div>
+<div id="language-skills" class="section level3">
+<h3>Language skills</h3>
+<p><first-column> <img src="img/dkflag.jpg" width="80px"> </first-column></p>
+<p><second-column> Fluent in both verbal and written Danish, it being my national language.<br />
+</second-column><br />
+ </p>
+<p> </p>
+<p><first-column> <img src="img/enflag.jpg" width="80px"> </first-column></p>
+<p><second-column> Fluent in both verbal and written English, having been exposed to english media from a very early age, and having utilized it greatly throughout my studies.<br />
+</second-column>  </p>
+<p><first-column> <img src="img/scanflag.png" width="80px"> </first-column></p>
+<p><second-column> As a danish person, I am able to communicate with both Swedes and Norwegians, each using our own national languages, due to the similarities of the languages.<br />
+</second-column><br />
+ </p>
+<p>
+<p><first-column> <img src="img/gerflag.png" width="80px"> </first-column></p>
+<second-column> Conversational in German, having been raised in southern Denmark, close to the Danish/German border, and recieving several years of German teaching during primary- and high school.<br />
+</second-column>
+</p>
+<p> </p>
+</div>
+<div id="hobbies" class="section level3 tabset">
+<h3>Hobbies</h3>
+<div id="tabletop-games" class="section level4">
+<h4>Tabletop games</h4>
+<p><img src="img/chess.png" width="400px" style="float: right; margin-left: 30px"></p>
+<p>I am fond of playing board games, and I own an extensive collection. I play both classic games, such as Chess and Go, and more modern games. I regularly get together with friends to play, and find it to be an axcellent way to spend time together. I also regularly play tabletop roleplaying games, such as Dungeons and Dragons, and Vampire.  </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+<div id="strength-training" class="section level4">
+<h4>Strength training</h4>
+<p><img src="img/lifting.jpg" width="400px" style="float: right; margin-left: 30px"></p>
+<p>I care about my physical well being, and lifting weights is my sport of choice. I visit my local gym several times per week, aiming to improve my health and looks. For me, it is also a social thing, as I have friends who attend the gym with me, which helps motivate me when I have an off day.  </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+<div id="photography" class="section level4">
+<h4>Photography</h4>
+<p><img src="img/chimpanzee.jpg" width="400px" style="float: right; margin-left: 30px"></p>
+<p>I enjoy capturing landscapes and wildlife while in the field. I would thrive in a job that includes frequent travel, as I would love the opportunity to visit more exotic places around the world, of course with my camera in tow. If you would liketo see some of my photos, feel free to visit my 500px site <a href="https://500px.com/sjujimako">here</a>.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+<div id="sailing" class="section level4">
+<h4>Sailing</h4>
+<p><img src="img/sailing.jpg" width="350px" style="float: right; margin-left: 30px"></p>
+<p>Denmark is an excellent country for sailors. I was raised in a family of sailors, which has made it’s mark. I try to get as much sailing done as possible in the summer months. I competed in local sailing competitions throughout my high school days, but have not had the same access to sailing equipment after moving for my education.  </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+<div id="skiing" class="section level4">
+<h4>Skiing</h4>
+<p><img src="img/skiing.jpg" width="400px" style="float: right; margin-left: 30px"></p>
+<p>Skiing is my favorite outdoor activity, however, living in Denmark does not afford one many opportunities to practice. I try to get in at least one skiing trip per year when possible, and have been doing so since the age of 6.  </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+</div>
+<div id="references" class="section level3">
+<h3>References</h3>
+<p>Peter Grønkjær - Associate Professor, AU<br />
+Supervisor during my thesis work<br />
+<a href="mailto:peter.groenkjaer@bios.au.dk">peter.groenkjaer@bios.au.dk</a><br />
++45 23 38 21 77<br />
+<a href="files/hhjessen_letter_of_recommendation_grønkjær.pdf" download>Letter of recommendation (.pdf)</a>.</p>
+<p>Torben L. Lauridsen - Senior Scientist, AU<br />
+Supervisor during my thesis work<br />
+<a href="mailto:tll@bios.au.dk">tll@bios.au.dk</a><br />
++45 25 15 15 27<br />
+<a href="files/hhjessen_letter_of_recommendation_lauridsen.pdf" download>Letter of recommendation (.pdf)</a>.</p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 

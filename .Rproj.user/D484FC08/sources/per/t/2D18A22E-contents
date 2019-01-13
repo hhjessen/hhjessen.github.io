@@ -15,3 +15,6 @@ output:
   html_document:
     theme: sandstone
     css: style.css
+    lib_dir: site_libs
+    self_contained: no
+
