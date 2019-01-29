@@ -27,7 +27,7 @@ Feb 2016
 **MSc in Biology, Aarhus University**  
 Specialized in aquatic ecosystems, trophic ecology, and modelling.  
 Included three months of multidisciplinary fieldwork in western Tanzania, helping secure sustainable fishing in Lake Tanganyika.  
-Experience communicating with stakeholder, politicians and citizens.  
+Experience communicating with stakeholders, politicians and citizens.  
 Supplementary courses on ecosystem management.
 </second-column>  
 
@@ -221,7 +221,7 @@ Conversational in German, having been raised in southern Denmark, close to the D
 
 ###Hobbies {.tabset}
 ####Tabletop games
-<img src="img/chess.png" width="400px" style="float: right; margin-left: 30px">
+<img src="img/wingspan.jpg" width="400px" style="float: right; margin-left: 30px">
 
 I am fond of playing board games, and I own an extensive collection. I play both classic games, such as Chess and Go, as well as more modern games. I regularly get together with friends to play, and find it to be an excellent way to spend time together. I also regularly play tabletop roleplaying games, such as Dungeons and Dragons.
 &nbsp;
@@ -290,6 +290,14 @@ Skiing is my favorite outdoor activity, however, living in Denmark does not affo
 &nbsp;
 
 ###References  
+<div style="float:right; width:55%">
+> In short, he possess all the skills you would require of a new PhD-student.  
+-- <cite>Peter Grønkjær</cite>
+
+> Based on my knowledge I can only recommend Henrik for a PhD position.  
+-- <cite>Torben L. Lauridsen</cite>
+</div>
+
 Peter Grønkjær - Associate Professor, AU  
 Supervisor during my thesis work  
 peter.groenkjaer@bios.au.dk  
