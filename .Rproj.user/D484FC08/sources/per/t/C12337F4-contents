@@ -12,7 +12,7 @@ fix_sec {
   height: 200px;
 }
 </style>
-If you would prefer the full PDF version of my CV, please click <a href="files/hhjessen_CV.pdf" download>here</a>.
+If you would prefer the PDF version of my CV, please click <a href="files/hhjessen_CV.pdf" download>here</a>.
 
 &nbsp;
 
@@ -114,6 +114,17 @@ I am familiar with the basic syntax, and have created this website using mainly 
 
 &nbsp;
 
+####Ecopath  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-light-grey w3-round">
+  <div class="w3-container w3-round w3-yellow w3-center" style="width:40%">40%</div>
+</div>  
+Knowledgeable on how the software functions, and enthusiastic about the applications that the model has for management of fisheries. I have previously helped created a conceptual model of Lake Tanganyika using EwE, and I am confident that I would quickly be able to efficiently utilize the software. 
+&nbsp;
+
+&nbsp;
+
 ####Python  
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -210,9 +221,9 @@ Conversational in German, having been raised in southern Denmark, close to the D
 
 ###Hobbies {.tabset}
 ####Tabletop games
-<img src="img/chimpanzee.jpg" width="400px" style="float: right; margin-left: 30px">
+<img src="img/chess.png" width="400px" style="float: right; margin-left: 30px">
 
-I am fond of playing board games, and I own an extensive collection. I play both classic games, such as Chess and go, and more modern games. I regularly get together with friends to play, and find it to be an axcellent way to spend time together. I also regularly play tabletop roleplaying games, such as Dungeons and Dragons, and Vampire.
+I am fond of playing board games, and I own an extensive collection. I play both classic games, such as Chess and Go, as well as more modern games. I regularly get together with friends to play, and find it to be an excellent way to spend time together. I also regularly play tabletop roleplaying games, such as Dungeons and Dragons.
 &nbsp;
 
 &nbsp;
@@ -246,8 +257,10 @@ I enjoy capturing landscapes and wildlife while in the field. I would thrive in 
 
 &nbsp;
 
+&nbsp;
+
 ####Sailing
-<img src="img/sailing.jpg" width="400px" style="float: right; margin-left: 30px">
+<img src="img/sailing.jpg" width="350px" style="float: right; margin-left: 30px">
 
 Denmark is an excellent country for sailors. I was raised in a family of sailors, which has made it's mark. I try to get as much sailing done as possible in the summer months. I competed in local sailing competitions throughout my high school days, but have not had the same access to sailing equipment after moving for my education. 
 &nbsp;
@@ -256,10 +269,16 @@ Denmark is an excellent country for sailors. I was raised in a family of sailors
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
 ####Skiing
-<img src="img/skiin.jpg" width="400px" style="float: right; margin-left: 30px">
+<img src="img/skiing.jpg" width="400px" style="float: right; margin-left: 30px">
 
 Skiing is my favorite outdoor activity, however, living in Denmark does not afford one many opportunities to practice. I try to get in at least one skiing trip per year when possible, and have been doing so since the age of 6. 
+&nbsp;
+
 &nbsp;
 
 &nbsp;

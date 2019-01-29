@@ -9,6 +9,8 @@ navbar:
     href: research.html
   - text: Projects
     href: projects.html
+  - text: Practical Skills
+    href: skills.html
   - text: CV
     href: CV.html
 output:

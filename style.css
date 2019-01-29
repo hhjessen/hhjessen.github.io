@@ -13,6 +13,10 @@ sec_right {
   height: 350px;
   width: 48%;
 }
+sec_whole {
+  height: 350px;
+  width: 100%;
+}
 first-column {
     width: 15%;
     padding: 0 10px 0 0;
